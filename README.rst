@@ -8,7 +8,7 @@ django-jsnlog
 .. image:: https://travis-ci.com/oruehenbeck/django-jsnlog.svg?branch=master
     :target: https://travis-ci.com/oruehenbeck/django-jsnlog
 
-A django integration for client side logging for javascript with JSNLog <https://jsnlog.com/>`_.
+A django integration for client side logging for javascript with JSNLog https://jsnlog.com/.
 
 Documentation
 -------------
@@ -48,7 +48,6 @@ Add django-jsnlog's javascript files to your template:
     <script type="text/javascript" src="{% static 'jsnlog/js/jsnlog.min.js' %}"></script>
     <script type="text/javascript" src="{% static 'jsnlog/js/django-jsnlog.js' %}"></script>
     ...
-
 
 Credits
 -------
