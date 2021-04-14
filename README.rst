@@ -49,7 +49,6 @@ Add django-jsnlog's javascript files to your template:
     <script type="text/javascript" src="{% static 'jsnlog/js/django-jsnlog.js' %}"></script>
     ...
 
-
 Credits
 -------
 
