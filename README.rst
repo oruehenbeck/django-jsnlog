@@ -5,9 +5,6 @@ django-jsnlog
 .. image:: https://badge.fury.io/py/django-jsnlog.svg
     :target: https://badge.fury.io/py/django-jsnlog
 
-.. image:: https://travis-ci.com/oruehenbeck/django-jsnlog.svg?branch=master
-    :target: https://travis-ci.com/oruehenbeck/django-jsnlog
-
 A django integration for client side logging for javascript with JSNLog https://jsnlog.com/.
 
 Documentation
