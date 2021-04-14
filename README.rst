@@ -37,17 +37,17 @@ Add django-jsnlog's URL patterns:
 .. code-block:: python
 
     urlpatterns += [
-        ...
         path(r'jsnlog.logger', include('jsnlog.urls')),
-        ...
     ]
 
 Add django-jsnlog's javascript files to your template:
 
 .. code-block:: html
 
+    ...
     <script type="text/javascript" src="{% static 'jsnlog/js/jsnlog.min.js' %}"></script>
     <script type="text/javascript" src="{% static 'jsnlog/js/django-jsnlog.js' %}"></script>
+    ...
 
 
 Credits
