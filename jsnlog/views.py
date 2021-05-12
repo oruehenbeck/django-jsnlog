@@ -19,4 +19,4 @@ class JSNLogView(View):
 
         log = json.loads(request.body)
         logger.error(f'user={request.user} error={log}')
-        return HttpResponse(status=200)
+        return HttpResponse(status=204)
