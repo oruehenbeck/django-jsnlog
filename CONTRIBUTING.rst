@@ -74,19 +74,13 @@ Ready to contribute? Here's how to set up `django-jsnlog` for local development.
 
    Now you can make your changes locally.
 
-5. When you're done making changes, check that your changes pass flake8::
-
-        $ flake8 jsnlog tests
-
-   To get flake8 and tox, just pip install them into your virtualenv.
-
-6. Commit your changes and push your branch to GitHub::
+5. Commit your changes and push your branch to GitHub::
 
     $ git add .
     $ git commit -m "Your detailed description of your changes."
     $ git push origin name-of-your-bugfix-or-feature
 
-7. Submit a pull request through the GitHub website.
+6. Submit a pull request through the GitHub website.
 
 Pull Request Guidelines
 -----------------------
@@ -97,8 +91,8 @@ Before you submit a pull request, check that it meets these guidelines:
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
-3. The pull request should work for Python 2.6, 2.7, and 3.3, and for PyPy. Check
-   https://travis-ci.org/oruehenbeck/django-jsnlog/pull_requests
+3. The pull request should work for supported Python versions (https://devguide.python.org/versions/) 
+   and for PyPy. Check https://travis-ci.org/oruehenbeck/django-jsnlog/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
 Tips
